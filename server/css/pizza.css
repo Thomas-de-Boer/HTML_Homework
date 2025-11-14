@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    font-family: cursive;
+}
+
+video {
+    z-index: 10;
+}
+
+#block1 {
+    .text {
+        text-align: center;
+        padding-right: 10px;
+        padding-left: 10px;
+        border-radius: 5px;
+        box-shadow: 5px 5px 5px #000000;
+        font-size: 25px;
+        color: #ffd100;
+        h1 {
+            font-size: 35px;
+            color: #fff756;
+            padding: 0;
+            margin: 0;
+        }
+    }
+
+    #green_block {
+        padding: 10px;
+        float: left;
+        margin-top: -51%;
+        margin-left: 5%;
+        position: relative;
+        z-index: 20;
+        background-color: #3e8e41;
+    }
+
+    .button {
+        text-align: center;
+        border: white solid;
+        text-decoration: none;
+        color: #ffd100;
+        border-radius: 5px;
+        box-shadow: 5px 5px 5px #000000;
+    }
+
+    .buttons {
+        margin-top: 10px;
+        a {
+            text-decoration: none;
+        }
+    }
+
+    #red_block {
+        float: right;
+        margin-top: -50%;
+        margin-right: 5%;
+        position: relative;
+        z-index: 20;
+        background-color: #e13838;
+    }
+}
+
+
+#block2 {
+    background-color: black;
+    z-index: 30;
+    margin-top: -10%;
+    position: absolute;
+
+    .text {
+        color: white;
+        text-align: center;
+
+        h1 {
+            margin: 0;
+            padding: 0;
+        }
+    }
+
+    #header_block {
+        padding: 1%;
+        margin: 5% auto;
+        width: 90%;
+        border: white 10px solid;
+    }
+
+    #container {
+        background-color: red;
+        margin-top: 5%;
+        margin-left: 6%;
+    }
+
+    #left_block {
+        margin: 1% 1% 5%;
+        padding: 1%;
+        width: 25%;
+        float: left;
+        border: white 10px solid;
+    }
+
+    #middle_block {
+        margin: 1%;
+        padding: 1%;
+        width: 25%;
+        float: left;
+        border: white 10px solid;
+    }
+
+    #right_block {
+        margin: 1%;
+        padding: 1%;
+        width: 25%;
+        float: left;
+        border: white 10px solid;
+    }
+}
+
+#vid2 {
+    margin-top: 26%;
+}

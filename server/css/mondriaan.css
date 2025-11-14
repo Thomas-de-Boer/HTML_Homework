@@ -1,0 +1,204 @@
+body {
+    margin: 0;
+}
+
+#container_container {
+    width: 1100px;
+    height: 600px;
+    margin: auto;
+}
+
+.container {
+    border: 5px black solid;
+    margin: 20px;
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    float: left;
+}
+
+.block {
+    border: 5px black solid;
+    box-sizing: border-box;
+    float: left;
+}
+
+#block_1 {
+    background-color: red;
+    height: 30%;
+    width: 30%;
+}
+
+#block_2 {
+    background-color: white;
+    width: 55%;
+    height: 15%;
+}
+
+#block_3 {
+    background-color: yellow;
+    width: 40%;
+    height: 15%;
+}
+
+#block_4 {
+    background-color: blue;
+    height: 55%;
+    width: 15%;
+}
+
+#block_5 {
+    background-color: yellow;
+    height: 15%;
+    width: 15%;
+    margin-top: -15%;
+}
+
+#block_6 {
+    background-color: white;
+    height: 70%;
+    width: 15%;
+}
+
+#block_7 {
+    background-color: blue;
+    height: 15%;
+    width: 30%;
+    margin-top: -55%;
+}
+
+#block_8 {
+    background-color: yellow;
+    height: 55%;
+    width: 15%;
+    margin-top: -40%;
+}
+
+#block_9 {
+    background-color: red;
+    height: 40%;
+    width: 40%;
+    margin-top: -55%;
+    margin-left: 15%;
+}
+
+#block_10 {
+    background-color: white;
+    height: 40%;
+    width: 15%;
+    margin-top: -40%;
+}
+
+#block_11 {
+    background-color: blue;
+    height: 15%;
+    width: 85%;
+}
+
+#block_12 {
+    background-color: yellow;
+    height: 15%;
+    width: 40%;
+    margin-top: -30%;
+    margin-left: 30%;
+}
+
+#block_13 {
+    background-color: red;
+    height: 15%;
+    width: 15%;
+    margin-top: -30%;
+    margin-left: 70%;
+}
+.backgroundsize{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+#block_1_img {
+    background-image: url("../photos/huiswerk_week4/kat1.jpg");
+    height: 30%;
+    width: 30%;
+}
+
+#block_2_img {
+    background-image: url("../photos/huiswerk_week4/kat2.jpg");
+    width: 55%;
+    height: 15%;
+}
+
+#block_3_img {
+    background-image: url("../photos/huiswerk_week4/kat3.jpg");
+    width: 40%;
+    height: 15%;
+}
+
+#block_4_img {
+    background-image: url("../photos/huiswerk_week4/kat4.jpg");
+    height: 55%;
+    width: 15%;
+}
+
+#block_5_img {
+    background-image: url("../photos/huiswerk_week4/kat3.jpg");
+    height: 15%;
+    width: 15%;
+    margin-top: -15%;
+}
+
+#block_6_img {
+    background-image: url("../photos/huiswerk_week4/kat2.jpg");
+    height: 70%;
+    width: 15%;
+}
+
+#block_7_img {
+    background-image: url("../photos/huiswerk_week4/kat4.jpg");
+    height: 15%;
+    width: 30%;
+    margin-top: -55%;
+}
+
+#block_8_img {
+    background-image: url("../photos/huiswerk_week4/kat3.jpg");
+    height: 55%;
+    width: 15%;
+    margin-top: -40%;
+}
+
+#block_9_img {
+    background-image: url("../photos/huiswerk_week4/kat1.jpg");
+    height: 40%;
+    width: 40%;
+    margin-top: -55%;
+    margin-left: 15%;
+}
+
+#block_10_img {
+    background-image: url("../photos/huiswerk_week4/kat2.jpg");
+    height: 40%;
+    width: 15%;
+    margin-top: -40%;
+}
+
+#block_11_img {
+    background-image: url("../photos/huiswerk_week4/kat4.jpg");
+    height: 15%;
+    width: 85%;
+}
+
+#block_12_img {
+    background-image: url("../photos/huiswerk_week4/kat3.jpg");
+    height: 15%;
+    width: 40%;
+    margin-top: -30%;
+    margin-left: 30%;
+}
+
+#block_13_img {
+    background-image: url("../photos/huiswerk_week4/kat1.jpg");
+    height: 15%;
+    width: 15%;
+    margin-top: -30%;
+    margin-left: 70%;
+}

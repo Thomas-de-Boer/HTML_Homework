@@ -1,0 +1,98 @@
+body {
+    background-image: url("../photos/huiswerk_week3/kat_achtergrond.jpg");
+}
+
+.chaos_photo {
+    float: left;
+}
+
+#leeuwkat {
+    animation: spin 1s infinite;
+    opacity: 0.3;
+    position: fixed;
+    z-index: 10;
+}
+
+#kat1 {
+    animation: bounce 0.5s infinite;
+    z-index: 1;
+}
+
+#kat2 {
+    animation: slide 0.5s infinite;
+    z-index: 2;
+}
+
+#kat3 {
+    animation: spin 1s infinite;
+    z-index: 3;
+}
+
+#kat4 {
+    animation: spin2 0.5s infinite;
+    z-index: 4;
+}
+
+#kat5 {
+    animation: slide2 1s infinite;
+    z-index: 5;
+}
+
+#kat6 {
+    animation: bounce2 1s infinite;
+    z-index: 6;
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(100px);
+    }
+}
+
+@keyframes slide {
+    0%, 100% {
+        transform: translateX(0px);
+    }
+    50% {
+        transform: translatex(50px);
+    }
+}
+
+@keyframes spin {
+    0%, 100% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes bounce2 {
+    0%, 100% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-50px);
+    }
+}
+
+@keyframes slide2 {
+    0%, 100% {
+        transform: translateX(-250px);
+    }
+    50% {
+        transform: translateX(0px);
+    }
+}
+
+@keyframes spin2 {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

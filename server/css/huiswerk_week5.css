@@ -1,0 +1,29 @@
+body {
+    background-color: #4d7b80;
+}
+
+form {
+    font-size: 20px;
+    font-family: Calibri;
+    background-image: url("../photos/huiswerk_week5/kat1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.container {
+    width: 15%;
+    margin: auto ;
+    padding: 2.5%;
+    padding-top: 1%;
+    background-color: beige;
+}
+
+input {
+    border-radius: 10px;
+    width: 100%;
+}
+
+.color_input {
+    width: 100%;
+}

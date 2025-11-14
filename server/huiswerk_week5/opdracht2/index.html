@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>opdracht 2 huiswerk week 5</title>
+    <link rel="stylesheet" href="../../css/main.css">
+    <link rel="stylesheet" href="../../css/header_bar.css">
+    <link rel="stylesheet" href="../../css/huiswerk_week5.css">
+    <style>
+        input {
+        font-family: Wingdings;
+        }
+    </style>
+</head>
+<body>
+<div class="header_bar">
+    <div id="left_header">
+        <a href="../../index.html"><img src="../../photos/header_bar/kat1.jpg" alt="kat" height="60px" width="225"></a>
+    </div>
+
+    <div class="dropdown">
+        <button class="dropbtn"><img src="../../photos/header_bar/kat2.jpg" alt="kat" height="60px"></button>
+        <div class="dropdown-content">
+            <a href="../../dropdown_pages/kat1.html"><img src="../../photos/header_bar/kat3.jpg" alt="kat" height="50px" width="110px"></a>
+            <a href="../../dropdown_pages/kat2.html"><img src="../../photos/header_bar/kat4.jpg" alt="kat" height="50px" width="110px"></a>
+            <a href="../../dropdown_pages/kat3.html"><img src="../../photos/header_bar/kat5.jpg" alt="kat" height="50px" width="110px"></a>
+            <a href="../../dropdown_pages/kat4.html"><img src="../../photos/header_bar/kat6.jpg" alt="kat" height="50px" width="110px"></a>
+            <a href="../../dropdown_pages/kat5.html"><img src="../../photos/header_bar/kat7.jpg" alt="kat" height="50px" width="110px"></a>
+            <a href="../../dropdown_pages/kat6.html"><img src="../../photos/header_bar/kat8.jpg" alt="kat" height="50px" width="110px"></a>
+            <a href="../../dropdown_pages/kat7.html"><img src="../../photos/header_bar/kat9.jpg" alt="kat" height="50px" width="110px"></a>
+        </div>
+    </div>
+</div>
+
+<form action="/submit" method="post">
+    <div class="container">
+        <h2>ruimteschipverhuur</h2>
+        <p>
+            Voornaam <br>
+            <input type="text" placeholder="Vul hier je voornaam in">
+        </p>
+
+        <p>
+            Achternaam <br>
+            <input type="text" placeholder="Vul hier je achternaam in">
+        </p>
+
+        <p>
+            Email <br>
+            <input type="email" placeholder="Vul hier je email in">
+        </p>
+
+        <p>
+            Wachtwoord <br>
+            <input type="password" placeholder="Vul hier je wachtwoord in">
+        </p>
+
+        <p>
+            zwaartekracht voorkeur <br>
+            <input class="range_input" type="range" value="10" min="1" max="30" oninput="this.nextElementSibling.value = this.value">
+            <output>10</output>
+        </p>
+    </div>
+</form>
+
+</body>
+</html>
